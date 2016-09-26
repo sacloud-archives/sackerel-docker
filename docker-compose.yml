@@ -1,0 +1,3 @@
+sackerel:
+  image: sacloud/sackerel
+  env_file: .env

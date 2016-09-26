@@ -1,0 +1,66 @@
+#***************************************************************
+# sackerel - A integration tool of Mackerel and SakuraCloud
+#***************************************************************
+# PLEASE RENAME THIS FILE TO ".env"
+# cp env-sample .env
+#***************************************************************
+# Author : Kazumichi Yamamoto(https://github.com/yamamoto-febc)
+#***************************************************************
+
+
+#============================
+# Required Options
+#============================
+
+# ACCESS_TOKEN for SakuraCloud
+#SAKURACLOUD_ACCESS_TOKEN=
+
+# ACCESS_TOKEN_SECRET for SakuraCloud
+#SAKURACLOUD_ACCESS_TOKEN_SECRET=
+
+# APIKEY for Mackerel
+#MACKEREL_APIKEY=
+
+#============================
+# Options
+#============================
+
+# Target zone list of SakuraCloud (default: "is1b", "tk1a")
+#SAKURACLOUD_ZONES="is1b,tk1a"
+
+# Interval of each timer jobs (default: 2m0s)
+#SACKEREL_TIMER_JOB_INTERVAL=2m
+
+# Period of collecting metrics history (default: 15m0s)
+#SACKEREL_METRICS_HISTORY_PERIOD=15m
+
+# Number of web server port for healthcheck (default: 39700)
+#SACKEREL_HEALTHCHECK_PORT=39700
+
+# Flag of disable health check web server (default: false)
+#SACKEREL_DISABLE_HEALTHCHECK=
+
+# Flag of skip init job (default: false)
+#SACKEREL_SKIP_INIT=
+
+
+#============================
+# Advanced Options
+#============================
+
+# for performance tuning
+
+#SACKEREL_API_CALL_INTERVAL=500ms
+#SACKEREL_JOB_QUEUE_SIZE=50
+#SACKEREL_THROTTLED_API_REQUST_QUEUE_SIZE=0
+#SACKEREL_SAKURA_API_REQEST_QUEUE_SIZE=10
+#SACKEREL_MACKEREL_API_REQEST_QUEUE_SIZE=10
+
+# for debug
+
+#SAKURACLOUD_TRACE_MODE=false
+#MACKEREL_TRACE_MODE=false
+#SACKEREL_TRACE_LOG=false
+#SACKEREL_INFO_LOG=true
+#SACKEREL_WARN_LOG=true
+#SACKEREL_ERROR_LOG=true
