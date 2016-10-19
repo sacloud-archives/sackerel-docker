@@ -10,7 +10,7 @@
 
 ## `Dockerfile` links
 
-- [`0.0.1`,`latest`(Dockerfile)](https://github.com/sacloud/sackerel-docker/tree/master/0.0.1/)
+- [`0.0.3`,`latest`(Dockerfile)](https://github.com/sacloud/sackerel-docker/tree/master/0.0.3/)
 
 ## 使い方(dockerコマンドを直接使う場合)
 
